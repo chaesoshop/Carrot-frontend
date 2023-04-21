@@ -53,35 +53,40 @@ const Header = () => {
         >
           <div
             style={{
-              color: "#ffa445",
+              color: "#0B0B61",
               fontSize: "1.4rem",
             }}
           >
             <a href={`/`} className="fontt">
               <FontAwesomeIcon
-                icon={faCarrot}
+                // icon={faCarrot}
                 style={{
                   fontSize: "1.8rem",
                 }}
               />
-              당근마켓
+              채소마켓
             </a>
           </div>
           <div
             style={{
-              color: "#ffa445",
+              color: "#08088A",
+              fontSize: "1rem",
             }}
           >
-            <a href={`/allproduct`}>중고거래</a>
+            <a href={`/allproduct`}>중고거래하러 가기</a>
+          </div>
+          <div
+            style={{
+              fontSize: "1rem",
+            }}
+          >
+            <a href={`/alljobs`}>채팅하기</a>
           </div>
           <div>
-            <a href={`/alljobs`}>알바</a>
+            <a href={`/allrealty`}></a>
           </div>
           <div>
-            <a href={`/allrealty`}>부동산 직거래</a>
-          </div>
-          <div>
-            <a href={`/board`}>동네게시판</a>
+            <a href={`/board`}></a>
           </div>
         </div>
         <div className="flex-grow justify-center items-center flex" style={{}}>

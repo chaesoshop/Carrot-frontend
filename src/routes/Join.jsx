@@ -709,7 +709,7 @@ const Join = () => {
           </span>
           <input
             type="text"
-            placeholder="대전시 OO구 OO동까지 입력해주세요"
+            placeholder="대전시 OO구 OO동까지 입력해 주세요"
             value={addressValue}
             disabled
             onChange={onCompletePost}

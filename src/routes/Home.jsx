@@ -471,12 +471,12 @@ const Home = ({ logined, setLogined }) => {
                 >
                   <div
                     style={{
-                      width: "300px",
+                      width: "400px",
                     }}
                   >
-                    당신 근처의
+                    안전하고 편리한 거래,
                   </div>
-                  <div>당근마켓</div>
+                  <div>채소마켓</div>
                 </div>
                 <div
                   className="mt-8"
@@ -484,14 +484,18 @@ const Home = ({ logined, setLogined }) => {
                     width: "330px",
                   }}
                 >
-                  <div>중고 거래부터 동네 정보까지, 이웃과 함께해</div>
-                  <div>가깝고 따듯한 당신의 근처를 만들어요.</div>
+                  <div>블록체인으로</div>
+                  <div>놀라운 거래를 경험해 보세요</div>
                 </div>
               </div>
               <div>
-                <div className="firstimg flex items-center">
+                <div className="firstimg flex items-center"
+                  style={{
+                    marginLeft: "100px",
+                  }}
+                >
                   <img
-                    src="https://d1unjqcospf8gs.cloudfront.net/assets/home/main/3x/image-top-d6869a79bc4cb58ea59aa5a408decfdf4a4ba60ac639837081da12861083cdbb.webp"
+                    src="img/intro.png"
                     alt=""
                   />
                 </div>
@@ -509,7 +513,7 @@ const Home = ({ logined, setLogined }) => {
           >
             <div className="secondimg mt-2 flex items-center">
               <img
-                src="https://d1unjqcospf8gs.cloudfront.net/assets/home/main/3x/image-1-cc678e9a217b96f5cb459f7f0684f5ba67706f9889801618b8cf879fbc2c0ea7.webp"
+                src="img/tr.png"
                 alt=""
               />
             </div>
@@ -521,8 +525,8 @@ const Home = ({ logined, setLogined }) => {
                   fontSize: "2.5rem",
                 }}
               >
-                <div>우리 동네</div>
-                <div>중고 직거래 마켓</div>
+                <div>멀리 살아도</div>
+                <div>편하게 중고거래</div>
               </div>
               <div
                 className="my-9"
@@ -530,7 +534,7 @@ const Home = ({ logined, setLogined }) => {
                   width: "420px",
                 }}
               >
-                동네 주민들과 가깝고 따뜻한 거래를 지금 경험해보세요.
+                온라인 거래도 걱정 없이 진행할 수 있어요
               </div>
               <div className="font-bold flex justify-center">
                 <div
@@ -590,12 +594,12 @@ const Home = ({ logined, setLogined }) => {
                   fontSize: "2.3rem",
                 }}
               >
-                <div>이웃과 함께하는</div>
-                <div>동네생활</div>
+                <div>궁금한 건</div>
+                <div>채소톡으로</div>
               </div>
 
               <h1 className="py-5">
-                우리 동네의 다양한 이야기를 이웃과 함께 나누어요.
+                물건에 대해 궁금한 게 있다면 채소톡으로 물어봐요
               </h1>
               <ul
                 className="flex mt-11 gap-8"
@@ -610,32 +614,10 @@ const Home = ({ logined, setLogined }) => {
                       fontSize: "2rem",
                     }}
                   >
-                    <AiFillHome />
-                  </div>
-                  <div className="font-bold mb-2 mt-3">우리동네질문</div>
-                  <span>궁금한 게 있을 땐 이웃에게 물어보세요.</span>
-                </li>
-                <li>
-                  <div
-                    style={{
-                      fontSize: "2rem",
-                    }}
-                  >
-                    <AiFillFileText />
-                  </div>
-                  <div className="font-bold mb-2 mt-3">우리분실센터</div>
-                  <span>무언가를 잃어버렸을 때, 함께 찾을 수 있어요.</span>
-                </li>
-                <li>
-                  <div
-                    style={{
-                      fontSize: "2rem",
-                    }}
-                  >
                     <AiFillMessage />
                   </div>
-                  <div className="font-bold mb-2 mt-3">동네모임</div>
-                  <span>관심사가 비슷한 이웃과 온오프라인으로 만나요.</span>
+                  <div className="font-bold mb-2 mt-3">구매자</div>
+                  <span>물건의 상태는 어떤가요?</span>
                 </li>
               </ul>
             </div>
@@ -644,12 +626,12 @@ const Home = ({ logined, setLogined }) => {
                 style={{
                   width: "100%",
                   position: "absolute",
-                  top: "5%",
+                  top: "20%",
                   left: "10%",
                 }}
               >
                 <img
-                  src="https://d1unjqcospf8gs.cloudfront.net/assets/home/main/3x/image-2-91a2286453bdf82dea16a7f0ee4ceb9dd325eae0e5a2a9967ba72c344bf8f2fc.webp"
+                  src="img/chat.png"
                   alt=""
                 />
               </div>
@@ -657,39 +639,6 @@ const Home = ({ logined, setLogined }) => {
           </div>
         </section>
 
-        <div className="section-Box flex flex-row">
-          <div className="imgBox-1">
-            <img
-              src="https://d1unjqcospf8gs.cloudfront.net/assets/home/main/3x/image-3-5fd6fb61d603ab919a45566b2ea6b505c83a93ec218f34ddcd5cb482543e2317.webp"
-              alt=""
-            />
-          </div>
-          <div className="flex-grow empty-Box"></div>
-          <div className="flex flex-col justify-center">
-            <div className="townShopBox">
-              <span>내 근처에서 찾는 동네가게</span>
-            </div>
-            <div className="mt-5">
-              <span>우리 동네 가게를 찾고 있나요?</span>
-            </div>
-            <div>
-              <span>동네 주민이 남긴 진짜 후기를 함께 확인해보세요!</span>
-            </div>
-            <div className="mt-5 findTownBox">
-              <a
-                href="#"
-                style={{
-                  padding: "10px 20px",
-                  borderRadius: "10px",
-                  fontWeight: "bolder",
-                  fontSize: "1.2rem",
-                }}
-              >
-                당근마켓 동네가게 찾기
-              </a>
-            </div>
-          </div>
-        </div>
         <div style={{ backgroundColor: "#efefef", minWidth: "1090px" }}>
           <div className="section-Box1 ">
             <div
