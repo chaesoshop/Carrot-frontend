@@ -128,7 +128,7 @@ const Security = ({ logined, setLogined }) => {
               style={{
                 width: "250px",
                 height: "50px",
-                border: "2px #0B0B61 solid",
+                border: "1px #A9A9F5 solid",
                 borderRadius: "15px",
               }}
               onKeyUp={(e) => {
@@ -144,7 +144,7 @@ const Security = ({ logined, setLogined }) => {
               style={{
                 width: "70px",
                 height: "40px",
-                border: "2px #0B0B61 solid",
+                border: "1px #A9A9F5 solid",
                 borderRadius: "10px",
                 marginLeft: "15px",
               }}
