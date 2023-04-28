@@ -260,7 +260,7 @@ const Join = () => {
             style={{
               position: "absolute",
               top: "7%",
-              left: "70%",
+              left: "68.5%",
               border: "1px gray solid",
               padding: "5px 10px",
             }}
@@ -269,7 +269,7 @@ const Join = () => {
                 IdCheck(idValue);
                 onUseidChange();
               } else {
-                window.alert("ID는 최소 5글자 이상이어야 합니다.");
+                window.alert("아이디는 최소 5자 이상이어야 합니다.");
               }
             }}
           >
@@ -282,7 +282,7 @@ const Join = () => {
                     width: "320px",
                     height: "130px",
                     position: "absolute",
-                    border: "1px #fcb264 solid",
+                    border: "1px #0B0B61 solid",
                     backgroundColor: "white",
                     borderRadius: "10px",
                     left: "20%",
@@ -312,7 +312,7 @@ const Join = () => {
                     >
                       <button
                         style={{
-                          backgroundColor: "#fcb264",
+                          backgroundColor: "#0B0B61",
                           color: "white",
                           width: "70px",
                           height: "30px",
@@ -334,7 +334,7 @@ const Join = () => {
                     width: "320px",
                     height: "150px",
                     position: "absolute",
-                    border: "1px #fcb264 solid",
+                    border: "1px #0B0B61 solid",
                     backgroundColor: "white",
                     borderRadius: "10px",
                     left: "20%",
@@ -361,7 +361,7 @@ const Join = () => {
                       사용 불가능하거나
                     </span>
                     <span>이미 존재하는 아이디입니다.</span>
-                    <span>다른 아이디를 사용해주세요</span>
+                    <span>다른 아이디를 사용해 주세요.</span>
                     <div
                       style={{
                         marginTop: "10px",
@@ -369,7 +369,7 @@ const Join = () => {
                     >
                       <button
                         style={{
-                          backgroundColor: "#fcb264",
+                          backgroundColor: "#0B0B61",
                           color: "white",
                           width: "70px",
                           height: "30px",
@@ -397,7 +397,7 @@ const Join = () => {
           </h5>
           <input
             type="text"
-            placeholder="아이디를 입력해 주세요, 소문자+숫자"
+            placeholder="아이디는 5자 이상, 소문자+숫자"
             value={idValue}
             onChange={(e) => onIdChange(e)}
             style={{
@@ -440,7 +440,7 @@ const Join = () => {
                     paddingLeft: "5px",
                   }}
                 >
-                  비밀번호 양식에 적합합니다
+                  비밀번호 양식에 적합합니다.
                 </span>
               </div>
             ) : (
@@ -465,13 +465,13 @@ const Join = () => {
                     paddingLeft: "5px",
                   }}
                 >
-                  비밀번호 양식을 다시 확인해주세요
+                  비밀번호 양식을 다시 확인해 주세요.
                 </span>
               </div>
             ))}
           <input
             type="password"
-            placeholder="비밀번호는 8자 ~ 20자 이하, 대소문자+숫자+특수문자"
+            placeholder="비밀번호는 8자 ~ 20자, 대소문자+숫자+특수문자"
             value={passwordValue}
             onChange={(e) => onPasswordChange(e)}
             style={{
@@ -490,7 +490,7 @@ const Join = () => {
               width: "190px",
             }}
           >
-            비밀번호 재확인
+            비밀번호 확인
           </h5>
           {pw2Check == true &&
             (pw2Status == true ? (
@@ -546,7 +546,7 @@ const Join = () => {
             ))}
           <input
             type="password"
-            placeholder="비밀번호는 8자 ~ 20자 이하, 대소문자+숫자+특수문자"
+            placeholder="비밀번호는 8자 ~ 20자, 대소문자+숫자+특수문자"
             value={password1Value}
             onChange={onPassword1Change}
             style={{
@@ -598,7 +598,7 @@ const Join = () => {
           >
             <input
               type="text"
-              placeholder="생년(4자)"
+              placeholder="연도(4자)"
               onChange={onYearChange}
               value={birthValue.yy}
               style={{
@@ -641,37 +641,37 @@ const Join = () => {
                 height: "50px",
               }}
             >
-              <option value="01">1</option>
-              <option value="02">2</option>
-              <option value="03">3</option>
-              <option value="04">4</option>
-              <option value="05">5</option>
-              <option value="06">6</option>
-              <option value="07">7</option>
-              <option value="08">8</option>
-              <option value="09">9</option>
-              <option value="10">10</option>
-              <option value="11">11</option>
-              <option value="12">12</option>
-              <option value="13">13</option>
-              <option value="14">14</option>
-              <option value="15">15</option>
-              <option value="16">16</option>
-              <option value="17">17</option>
-              <option value="18">18</option>
-              <option value="19">19</option>
-              <option value="20">20</option>
-              <option value="21">21</option>
-              <option value="22">22</option>
-              <option value="23">23</option>
-              <option value="24">24</option>
-              <option value="25">25</option>
-              <option value="26">26</option>
-              <option value="27">27</option>
-              <option value="28">28</option>
-              <option value="29">29</option>
-              <option value="30">30</option>
-              <option value="31">31</option>
+              <option value="01">1일</option>
+              <option value="02">2일</option>
+              <option value="03">3일</option>
+              <option value="04">4일</option>
+              <option value="05">5일</option>
+              <option value="06">6일</option>
+              <option value="07">7일</option>
+              <option value="08">8일</option>
+              <option value="09">9일</option>
+              <option value="10">10일</option>
+              <option value="11">11일</option>
+              <option value="12">12일</option>
+              <option value="13">13일</option>
+              <option value="14">14일</option>
+              <option value="15">15일</option>
+              <option value="16">16일</option>
+              <option value="17">17일</option>
+              <option value="18">18일</option>
+              <option value="19">19일</option>
+              <option value="20">20일</option>
+              <option value="21">21일</option>
+              <option value="22">22일</option>
+              <option value="23">23일</option>
+              <option value="24">24일</option>
+              <option value="25">25일</option>
+              <option value="26">26일</option>
+              <option value="27">27일</option>
+              <option value="28">28일</option>
+              <option value="29">29일</option>
+              <option value="30">30일</option>
+              <option value="31">31일</option>
             </select>
           </div>
           <h5
@@ -709,7 +709,7 @@ const Join = () => {
           </span>
           <input
             type="text"
-            placeholder="대전시 OO구 OO동까지 입력해 주세요"
+            placeholder="OO시 OO구 OO동까지 입력해 주세요"
             value={addressValue}
             disabled
             onChange={onCompletePost}
@@ -740,7 +740,7 @@ const Join = () => {
               paddingTop: "15px",
             }}
           >
-            본인 확인 이메일(선택)
+            본인 확인 이메일 (선택)
           </h5>
           <input
             type="text"
@@ -766,7 +766,7 @@ const Join = () => {
           </h5>
           <input
             type="text"
-            placeholder="당근마켓 내에서 사용할 닉네임 입력"
+            placeholder="채소마켓 내에서 사용할 닉네임"
             value={nicknameValue}
             onChange={onNicknameChange}
             style={{
@@ -784,11 +784,11 @@ const Join = () => {
               paddingTop: "15px",
             }}
           >
-            휴대전화
+            전화번호
           </h5>
           <input
             type="text"
-            placeholder="전화번호 입력, 010-xxxx-xxxx"
+            placeholder="010 - **** - ****"
             onChange={onPhoneChange}
             value={phoneValue}
             style={{
@@ -804,41 +804,42 @@ const Join = () => {
           >
             <button
               style={{
-                backgroundColor: "#fc9d39",
+                backgroundColor: "#0B0B61",
                 padding: "15px 20px",
+                marginBottom: "20px",
                 borderRadius: "10px",
                 color: "white",
                 fontWeight: "bolder",
               }}
               onClick={() => {
                 if (!idCheck) {
-                  window.alert("아이디확인을 해주세요");
+                  window.alert("아이디를 확인해 주세요.");
                   return;
                 } else if (!pwStatus) {
-                  window.alert("비밀번호 양식을 확인해주세요");
+                  window.alert("비밀번호 양식을 확인해 주세요.");
                   return;
                 } else if (!pw2Status) {
-                  window.alert("비밀번호 재확인이 일치하지 않습니다.");
+                  window.alert("비밀번호 확인이 일치하지 않습니다.");
                   return;
                 } else if (nameValue.length <= 1) {
-                  window.alert("이름은 최소 2글자 이상이어야 합니다.");
+                  window.alert("이름은 최소 2자 이상이어야 합니다.");
                   return;
                 } else if (birthValue.yy == "") {
-                  window.alert("생년월일을 확인해 주세요");
+                  window.alert("생년월일을 확인해 주세요.");
                   return;
                 } else if (birthValue.yy.length > 4) {
-                  window.alert("생년이 5글자 이상인지 확인해주세요.");
+                  window.alert("연도가 5자 이상인지 확인해 주세요.");
                 } else if (birthValue.mm == "") {
-                  window.alert("생년월일을 확인해 주세요");
+                  window.alert("생년월일을 확인해 주세요.");
                   return;
                 } else if (birthValue.dd == "") {
-                  window.alert("생년월일을 확인해 주세요");
+                  window.alert("생년월일을 확인해 주세요.");
                   return;
                 } else if (addressValue.length <= 6) {
-                  window.alert("주소양식을 확인해 주세요.");
+                  window.alert("주소 양식을 확인해 주세요.");
                   return;
                 } else if (phoneValue.length != 13) {
-                  window.alert("연락처는 010 - **** - **** 로 입력해주세요. ");
+                  window.alert("연락처는 010 - **** - **** 양식으로 입력해 주세요. ");
                   return;
                 } else {
                   if (phoneValue.length == 13) {
@@ -878,7 +879,7 @@ const Join = () => {
                 <br />
                 로그인 홈페이지로 이동하여
                 <br />
-                당근마켓을 바로 이용해보세요!
+                채소마켓을 바로 이용해 보세요!
                 <br />
               </span>
               <button

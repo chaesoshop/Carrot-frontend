@@ -78,7 +78,7 @@ const LoginedHeader = ({ setLogined }) => {
               fontSize: "0.9rem",
             }}
           >
-            <a href={`/allproduct`}>중고거래하러 가기</a>
+            <a href={`/allproduct`}>중고거래하러 가기👆🏻</a>
           </div>
           <div>
             <a href={`/alljobs`}></a>

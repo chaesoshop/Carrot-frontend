@@ -82,18 +82,18 @@ const Login = () => {
         >
           <div
             style={{
-              color: "#ffa445",
+              color: "#0B0B61",
               fontSize: "1.4rem",
             }}
           >
             <a href={`/`} className="fontt">
               <FontAwesomeIcon
-                icon={faCarrot}
+                // icon={faCarrot}
                 style={{
                   fontSize: "1.8rem",
                 }}
               />
-              당근마켓
+              채소마켓
             </a>
           </div>
         </div>
@@ -113,7 +113,7 @@ const Login = () => {
               fontSize: "2rem",
             }}
           >
-            당근 로그인
+            채소 로그인
           </div>
           <br />
           <div className="pb-2">
@@ -156,7 +156,7 @@ const Login = () => {
               style={{
                 width: "300px",
                 color: "white",
-                backgroundColor: "#fc9d39",
+                backgroundColor: "#0B0B61",
               }}
               onClick={() => {
                 if (idValue == "") {
@@ -184,10 +184,10 @@ const Login = () => {
               <div
                 className="font-bold "
                 style={{
-                  color: "#FF9F29",
+                  color: "#0B0B61",
                 }}
               >
-                <a href="/Join">회원 가입하기</a>
+                <a href="/Join">회원가입하기</a>
               </div>
             </div>
           </div>
@@ -227,7 +227,7 @@ const Login = () => {
               위치기반 서비스 이용약관
             </a>
           </div>
-          <div className="flex items-center">© Daangn Market Inc.</div>
+          <div className="flex items-center">© Chaeso Market Inc.</div>
         </div>
       </div>
     </div>

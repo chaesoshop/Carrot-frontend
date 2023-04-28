@@ -73,14 +73,10 @@ const Header = () => {
               fontSize: "1rem",
             }}
           >
-            <a href={`/allproduct`}>중고거래하러 가기</a>
+            <a href={`/allproduct`}>중고거래하러 가기👆🏻</a>
           </div>
-          <div
-            style={{
-              fontSize: "1rem",
-            }}
-          >
-            <a href={`/alljobs`}>채팅하기</a>
+          <div>
+            <a href={`/alljobs`}></a>
           </div>
           <div>
             <a href={`/allrealty`}></a>

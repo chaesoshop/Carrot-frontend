@@ -430,7 +430,7 @@ const ArticleControl = ({ logined, setLogined }) => {
             </li>
             <li
               style={{
-                color: "#ffa445",
+                color: "#08088A",
               }}
             >
               <a href="/articleControl">게시글 관리</a>
@@ -1017,8 +1017,8 @@ const ArticleControl = ({ logined, setLogined }) => {
                 }}
               >
                 {spreadJobs == false
-                  ? "알바 마이게시글 펼쳐보기"
-                  : "알바 마이게시글 접기"}
+                  ? ""
+                  : ""}
               </button>
             </li>
             <div>
@@ -1149,8 +1149,8 @@ const ArticleControl = ({ logined, setLogined }) => {
                 }}
               >
                 {spreadRealty == false
-                  ? "부동산 마이게시글 펼쳐보기"
-                  : "부동산 마이게시글 접기"}
+                  ? ""
+                  : ""}
               </button>
             </li>
             <div>

@@ -86,7 +86,7 @@ const AllProduct = ({ logined, setLogined }) => {
                 width: "90px",
                 textAlign: "center",
                 marginLeft: "2.5rem",
-                backgroundColor: "#fc9d39",
+                backgroundColor: "#0B0B61",
                 borderRadius: "10px",
                 height: "55px",
               }}
@@ -105,9 +105,9 @@ const AllProduct = ({ logined, setLogined }) => {
                     paddingTop: "5px",
                   }}
                 >
-                  중고매물
+                  내 물건
                   <br />
-                  거래하기
+                  판매하기
                 </div>
               </a>
             </div>
@@ -350,7 +350,7 @@ const AllProduct = ({ logined, setLogined }) => {
                 width: "90px",
                 textAlign: "center",
                 marginLeft: "2.5rem",
-                backgroundColor: "#fc9d39",
+                backgroundColor: "#0B0B61",
                 borderRadius: "10px",
                 height: "55px",
               }}
@@ -369,9 +369,9 @@ const AllProduct = ({ logined, setLogined }) => {
                     paddingTop: "5px",
                   }}
                 >
-                  중고매물
+                  내 물건
                   <br />
-                  거래하기
+                  판매하기
                 </div>
               </a>
             </div>
@@ -546,7 +546,7 @@ const AllProduct = ({ logined, setLogined }) => {
               textAlign: "center",
             }}
           >
-            <span>당근마켓 앱에서 따뜻한 거래를 직접 경험해보세요!</span>
+            <span>채소마켓 앱에서 따뜻한 거래를 직접 경험해 보세요!</span>
           </div>
           <div
             style={{
@@ -558,7 +558,7 @@ const AllProduct = ({ logined, setLogined }) => {
             <a
               href="#"
               style={{
-                backgroundColor: "#faa64f",
+                backgroundColor: "#0B0B61",
                 marginTop: "10px",
                 padding: "10px 30px",
                 fontSize: "1.5rem",
@@ -572,7 +572,7 @@ const AllProduct = ({ logined, setLogined }) => {
             <a
               href="#"
               style={{
-                backgroundColor: "#faa64f",
+                backgroundColor: "#0B0B61",
                 marginTop: "10px",
                 padding: "10px 20px",
                 fontSize: "1.5rem",

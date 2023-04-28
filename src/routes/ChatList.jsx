@@ -69,7 +69,7 @@ const ChatList = ({ logined, setLogined }) => {
             </li>
             <li
               style={{
-                color: "#ffa445",
+                color: "#08088A",
               }}
             >
               <a href="/chatList">채팅방 목록</a>

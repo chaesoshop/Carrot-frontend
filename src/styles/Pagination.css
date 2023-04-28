@@ -3,7 +3,7 @@
   text-align: center;
 }
 
-/* #ffa445; */
+/* #0B0B61; */
 
 .pagination {
   display: flex;
@@ -48,12 +48,12 @@ ul.pagination li.active a {
 }
 
 ul.pagination li.active {
-  background-color: #ffa445;
+  background-color: #0B0B61;
 }
 
 ul.pagination li a:hover,
 ul.pagination li a.active {
-  background-color: #ffa445;
+  background-color: #0B0B61;
   color: white;
 }
 

@@ -89,7 +89,7 @@ const Security = ({ logined, setLogined }) => {
             </li>
             <li
               style={{
-                color: "#ffa445",
+                color: "#08088A",
               }}
             >
               <a href="/security">보안설정</a>
@@ -128,7 +128,7 @@ const Security = ({ logined, setLogined }) => {
               style={{
                 width: "250px",
                 height: "50px",
-                border: "1px #fc9d39 solid",
+                border: "2px #0B0B61 solid",
                 borderRadius: "15px",
               }}
               onKeyUp={(e) => {
@@ -144,7 +144,7 @@ const Security = ({ logined, setLogined }) => {
               style={{
                 width: "70px",
                 height: "40px",
-                border: "1px #fc9d39 solid",
+                border: "2px #0B0B61 solid",
                 borderRadius: "10px",
                 marginLeft: "15px",
               }}

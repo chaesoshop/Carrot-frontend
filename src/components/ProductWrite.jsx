@@ -17,7 +17,8 @@ const ProductWrite = ({ logined, setLogined }) => {
   useEffect(() => {
     if (!logined) {
       window.alert("로그인 후 사용할 수 있는 기능입니다.");
-      moveBack();
+      // moveBack();
+      // 알런트 창 띄우고 확인 누르면 돌아가는 기능. 코드 짤 때만 잠시 꺼둠.
     }
   }, []);
   const [category, setCategoryValue] = useState("");
@@ -181,10 +182,10 @@ const ProductWrite = ({ logined, setLogined }) => {
       >
         <span
           style={{
-            color: "#ffa445",
+            color: "#0B0B61",
           }}
         >
-          중고거래 글쓰기
+          내 물건 판매하기
         </span>
       </div>
       <div
@@ -203,11 +204,11 @@ const ProductWrite = ({ logined, setLogined }) => {
           }}
         >
           <div>
-            <div>제목</div>
+            <div>상품명</div>
             <div>
               <input
                 type="text"
-                placeholder="게시글 제목"
+                placeholder="상품명을 작성해 주세요."
                 value={subjectValue}
                 onChange={onSubjectChange}
                 style={{
@@ -265,7 +266,7 @@ const ProductWrite = ({ logined, setLogined }) => {
             <div> 거래장소</div>
             <input
               type="text"
-              placeholder="거래할 장소를 입력해주세요."
+              placeholder="거래할 장소를 입력해 주세요."
               value={dealAddress}
               onChange={onDealAddress}
               style={{
@@ -281,7 +282,7 @@ const ProductWrite = ({ logined, setLogined }) => {
               <textarea
                 cols="30"
                 rows="10"
-                placeholder="게시글 내용을 작성해주세요. (가품 및 판매금지 물품은 게시가 제한될 수 있어요)"
+                placeholder="게시글 내용을 작성해 주세요. (가품 및 판매금지 물품은 게시가 제한될 수 있어요.)"
                 value={contentValue}
                 onChange={onContentChange}
                 style={{
@@ -298,8 +299,9 @@ const ProductWrite = ({ logined, setLogined }) => {
           <div
             className="pt-4"
             style={{
-              color: "#ffa445",
+              color: "#0B0B61",
               fontWeight: "bolder",
+              marginBottom: "10px",
             }}
           >
             사진은 최대 10장까지 추가할 수 있습니다.
@@ -400,18 +402,18 @@ const ProductWrite = ({ logined, setLogined }) => {
                 }
               }}
               style={{
-                outline: "1px #ffa445 solid",
+                outline: "1px #CED8F6 solid",
                 borderRadius: "10px",
                 padding: "15px",
                 fontWeight: "bolder",
                 color: "white",
                 fontSize: "1.1rem",
-                backgroundColor: "#FFB26B",
+                backgroundColor: "#CED8F6",
                 margin: "15px auto",
                 width: "750px",
               }}
             >
-              판매게시글 작성완료
+              판매 게시글 작성 완료
             </button>
           </div>
           {completeToggle && (
@@ -423,7 +425,7 @@ const ProductWrite = ({ logined, setLogined }) => {
                 height: "150px",
                 justifyContent: "center",
                 background: "white",
-                outline: "1px #ffa445 solid",
+                outline: "1px #0B0B61 solid",
                 borderRadius: "10px",
                 display: "flex",
               }}
@@ -434,7 +436,7 @@ const ProductWrite = ({ logined, setLogined }) => {
                   textAlign: "center",
                   width: "100%",
                   height: "100%",
-                  color: "#ffa445",
+                  color: "#0B0B61",
                   fontWeight: "bolder",
                   paddingTop: "10px",
                 }}
@@ -446,9 +448,9 @@ const ProductWrite = ({ logined, setLogined }) => {
                 <div
                   style={{
                     padding: "10px",
-                    outline: "1px #ffa445 solid",
+                    outline: "1px #0B0B61 solid",
                     borderRadius: "10px",
-                    color: "#ffa445",
+                    color: "#0B0B61",
                     width: "80px",
                     margin: "30px auto",
                   }}

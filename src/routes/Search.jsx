@@ -278,7 +278,7 @@ const Search = ({ logined, setLogined }) => {
           style={{
             width: "1000px",
             margin: "0 auto",
-            border: "1px #ffb412 solid",
+            border: "2px #EFEFFB solid",
             height: "780px",
             borderRadius: "10px",
             padding: "20px",
@@ -318,8 +318,9 @@ const Search = ({ logined, setLogined }) => {
                 className="productButton"
                 style={{
                   padding: "6px 11px",
-                  backgroundColor: "#ffa445",
+                  backgroundColor: "#0B0B61",
                   color: "white",
+                  borderRadius: "10px",
                 }}
                 onClick={() => {
                   setType("product");
@@ -329,51 +330,7 @@ const Search = ({ logined, setLogined }) => {
               >
                 중고거래
               </button>
-              <button
-                className="jobsButton"
-                style={{
-                  borderTop: "1px #ffa445 solid",
-                  borderBottom: "1px #ffa445 solid",
-                  padding: "5px 10px",
-                }}
-                onClick={() => {
-                  setType("jobs");
-                  sessionStorage.setItem("type", "jobs");
-                  onSearch("jobs");
-                }}
-              >
-                알바
-              </button>
-              <button
-                className="realtyButton"
-                style={{
-                  border: "1px #ffa445 solid",
-                  padding: "5px 10px",
-                }}
-                onClick={() => {
-                  setType("realty");
-                  sessionStorage.setItem("type", "realty");
-                  onSearch("realty");
-                }}
-              >
-                부동산
-              </button>
-              <button
-                className="boardToggleButton"
-                style={{
-                  borderTop: "1px #ffa445 solid",
-                  borderBottom: "1px #ffa445 solid",
-                  borderRight: "1px #ffa445 solid",
-                  padding: "5px 10px",
-                }}
-                onClick={() => {
-                  setType("board");
-                  sessionStorage.setItem("type", "board");
-                  onSearch("board");
-                }}
-              >
-                게시판
-              </button>
+              
             </div>
           </div>
           {searchList.length == 0 ? (

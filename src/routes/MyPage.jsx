@@ -200,7 +200,7 @@ const MyPage = ({ logined, setLogined }) => {
           >
             <li
               style={{
-                color: "#ffa445",
+                color: "#08088A",
               }}
             >
               <a href="/mypage">내 프로필</a>{" "}
@@ -361,17 +361,6 @@ const MyPage = ({ logined, setLogined }) => {
                           marginTop: "10px",
                         }}
                       >
-                        <FaCarrot
-                          style={{
-                            width: "120px",
-                            height: "120px",
-                            display: "flex",
-                            justifyContent: "center",
-                            alignItems: "center",
-                            fontSize: "3rem",
-                            color: "#fc9d39",
-                          }}
-                        />
                       </div>
                     )}
                   </ul>
