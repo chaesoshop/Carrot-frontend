@@ -160,7 +160,7 @@ const Login = () => {
               }}
               onClick={() => {
                 if (idValue == "") {
-                  window.alert("ID를 입력해 주세요");
+                  window.alert("아이디를 입력해 주세요");
                 } else if (pwValue == "") {
                   window.alert("비밀번호를 입력해 주세요");
                 } else {
